@@ -8,3 +8,4 @@ Data structures and algorithms are extremely important for anyone dealing with p
 
 * [Selection Sort](Sorting%20Algorithms/Selection%20Sort/) - O(n²)
 * [Bubble Sort](Sorting%20Algorithms/Bubble%20Sort/) - O(n²)
+* [Insertion Sort](Sorting%20Algorithms/Insertion%20Sort/) - O(n²)

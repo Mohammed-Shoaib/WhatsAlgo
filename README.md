@@ -17,3 +17,4 @@ Data structures and algorithms are extremely important for anyone dealing with p
 ## Search Algorithms
 
 * [Linear Search](Search%20Algorithms/Linear%20Search/) - O(n)
+* [Binary Search](Search%20Algorithms/Binary%20Search/) - O(logn)

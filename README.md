@@ -11,6 +11,7 @@ Data structures and algorithms are extremely important for anyone dealing with p
 * [Insertion Sort](Sorting%20Algorithms/Insertion%20Sort/) - O(n²)
 * [Merge Sort](Sorting%20Algorithms/Merge%20Sort/) - O(nlogn)
 * [Quick Sort (Lomuto Partitioning)](Sorting%20Algorithms/Quick%20Sort%20(Lomuto%20Partitioning)/) - O(n²)
+* [Quick Sort (Hoare Partitioning)](Sorting%20Algorithms/Quick%20Sort%20(Hoare%20Partitioning)/) - O(n²)
 * [Counting Sort](Sorting%20Algorithms/Counting%20Sort/) - O(n + k)
 
 

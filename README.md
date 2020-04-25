@@ -20,3 +20,9 @@ Data structures and algorithms are extremely important for anyone dealing with p
 
 * [Linear Search](Search%20Algorithms/Linear%20Search/) - O(n)
 * [Binary Search](Search%20Algorithms/Binary%20Search/) - O(logn)
+
+
+
+## Data Structures
+
+* [Least Recently Used Cache](Data%20Structures/LRU%20Cache/)

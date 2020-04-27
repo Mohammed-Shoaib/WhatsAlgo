@@ -1,5 +1,5 @@
 /*
-Algorithm: Least Recently Used Cache
+Data Structure: Least Recently Used Cache
 Author: Mohammed Shoaib, github.com/Mohammed-Shoaib
 Space Complexity: O(n)
 

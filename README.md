@@ -27,3 +27,9 @@ Data structures and algorithms are extremely important for anyone dealing with p
 
 * [Least Recently Used Cache](Data%20Structures/LRU%20Cache/)
 * [Least Frequently Used Cache](Data%20Structures/LFU%20Cache/)
+
+
+
+## Dynamic Programming
+
+* [Kadane's Algorithm](Dynamic%20Programming/Kadane's%20Algorithm/) - O(n)

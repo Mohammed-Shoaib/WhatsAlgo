@@ -33,3 +33,9 @@ Data structures and algorithms are extremely important for anyone dealing with p
 ## Dynamic Programming
 
 * [Kadane's Algorithm](Dynamic%20Programming/Kadane's%20Algorithm/) - O(n)
+
+
+
+## Bit Manipulation
+
+* [Highest Set Bit](Bit%20Manipulation/Highest%20Set%20Bit/) - O(1)

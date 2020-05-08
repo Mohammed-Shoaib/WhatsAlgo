@@ -39,3 +39,9 @@ Data structures and algorithms are extremely important for anyone dealing with p
 ## Bit Manipulation
 
 * [Highest Set Bit](Bit%20Manipulation/Highest%20Set%20Bit/) - O(1)
+
+
+
+## Mathematics
+
+* [Primality Test](Mathematics/Primality%20Test/) - O(√n)

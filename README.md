@@ -40,6 +40,7 @@ Data structures and algorithms are extremely important for anyone dealing with p
 
 ## Bit Manipulation
 
+* [Lowest Set Bit](Bit%20Manipulation/Lowest%20Set%20Bit/) - O(1)
 * [Highest Set Bit](Bit%20Manipulation/Highest%20Set%20Bit/) - O(1)
 
 

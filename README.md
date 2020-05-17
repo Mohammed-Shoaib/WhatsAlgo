@@ -48,3 +48,9 @@ Data structures and algorithms are extremely important for anyone dealing with p
 ## Mathematics
 
 * [Primality Test](Mathematics/Primality%20Test/) - O(√n)
+
+
+
+## Miscellaneous
+
+* [Kadane's Algorithm (Divide & Conquer)](Miscellaneous/Kadane's%20Algorithm%20(Divide%20&%20Conquer)/) - O(nlogn)

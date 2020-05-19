@@ -14,7 +14,7 @@ int find_peak(int low, int high, vector<int> &a) {
     int n = a.size();
     int mid = (low + high) / 2;
 
-    // Base Cases
+    // base cases
     if (n == 1)
         return 0;
     else if ( (mid == 0 && a[mid] >= a[mid + 1]) || 

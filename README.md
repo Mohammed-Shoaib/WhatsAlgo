@@ -1,6 +1,6 @@
-# Data Structures And Algorithms
+# WhatsAlgo
 
-Data structures and algorithms are extremely important for anyone dealing with programming. Be a software engineer, a computer science student, or just a fun enthusiast, having a firm grasp on various topics is crucial. This repository aims to provide implementations of many different data structures and algorithms from basic to some advanced topics.
+Data structures & algorithms are extremely important for anyone dealing with programming. Be a software engineer, a computer science student, or just a fun enthusiast, having a firm grasp on various topics is crucial. This repository aims to provide implementations of many different data structures & algorithms from basic to some advanced topics.
 
 
 
@@ -21,6 +21,7 @@ Data structures and algorithms are extremely important for anyone dealing with p
 * [Linear Search](Search%20Algorithms/Linear%20Search/) - O(n)
 * [Binary Search](Search%20Algorithms/Binary%20Search/) - O(logn)
 * [Peak Finding 1D](Search%20Algorithms/Peak%20Finding%201D/) - O(logn)
+* [Peak Finding 2D](Search%20Algorithms/Peak%20Finding%202D/) - O(mlogn)
 
 
 

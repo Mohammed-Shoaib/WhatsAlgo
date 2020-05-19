@@ -1,7 +1,7 @@
 /*
 Algorithm: Kadane's Algorithm (Divide & Conquer)
 Time Complexity: O(nlogn)
-Space Complexity: O(n)
+Space Complexity: O(logn)
 Author: Mohammed Shoaib, github.com/Mohammed-Shoaib
 */
 

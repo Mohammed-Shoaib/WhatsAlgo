@@ -31,6 +31,7 @@ Data structures & algorithms are extremely important for anyone dealing with pro
 * [Least Frequently Used Cache](Data%20Structures/LFU%20Cache/)
 * [Trie](Data%20Structures/Trie/)
 * [Fenwick Tree](Data%20Structures/Fenwick%20Tree/)
+* [Union-Find](Data%20Structures/Union-Find/)
 
 
 

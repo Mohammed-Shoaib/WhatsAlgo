@@ -1,6 +1,10 @@
 # WhatsAlgo
 
-Data structures & algorithms are extremely important for anyone dealing with programming. Be a software engineer, a computer science student, or just a fun enthusiast, having a firm grasp on various topics is crucial. This repository aims to provide implementations of many different data structures & algorithms from basic to some advanced topics.
+<p align="center"><img src="assets/logo.png" width=300px></p>
+
+Prepping for your coding interview? Want to learn data structures & algorithms but don't know where to start?
+
+Well you have come to the right place. Data structures & algorithms are of key importance for anyone dealing with programming. Be a software engineer, a computer science student, or a fun enthusiast, having a firm grasp on various topics is crucial. This repository aims to provide implementations of many different data structures & algorithms from basic to some advanced topics. Learn and have a firm grasp on data structures & algorithms to ace your coding interviews and land that dream job!
 
 
 

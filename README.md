@@ -1,6 +1,6 @@
 # WhatsAlgo
 
-<p align="center"><img src="assets/logo.png" width=300px></p>
+<p align="center"><img src="assets/logo.png" width=400px></p>
 
 Prepping for your coding interview? Want to learn data structures & algorithms but don't know where to start?
 
@@ -33,6 +33,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 
 * [Least Recently Used Cache](Data%20Structures/LRU%20Cache/)
 * [Least Frequently Used Cache](Data%20Structures/LFU%20Cache/)
+* [Running Median](Data%20Structures/Running%20Median/)
 * [Trie](Data%20Structures/Trie/)
 * [Fenwick Tree](Data%20Structures/Fenwick%20Tree/)
 * [Union-Find](Data%20Structures/Union-Find/)

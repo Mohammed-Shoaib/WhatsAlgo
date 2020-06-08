@@ -37,6 +37,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Trie](Data%20Structures/Trie/)
 * [Fenwick Tree](Data%20Structures/Fenwick%20Tree/)
 * [Union-Find](Data%20Structures/Union-Find/)
+* [Prefix Sum](Data%20Structures/Prefix%20Sum/) - O(n)
 
 
 

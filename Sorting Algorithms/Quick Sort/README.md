@@ -1,6 +1,8 @@
-# Quick Sort (Lomuto Partitioning)
+# Quick Sort
 
 A sorting algorithm that uses divide and conquer. It recursively partitions the array by picking a pivot, the elements to the left of pivot are smaller and the elements to the right of pivot are larger when compared to the pivot.
+
+Hoare partitioning is more efficient than Lomuto's partition scheme because it does three times fewer swaps on average and creates efficient partitions.
 
 
 ### Time Complexity
@@ -23,7 +25,7 @@ where n represents the size of the array.
 
 ### Function Description
 
-Given a range [low, high], it sorts the array _inplace_ in that range using lomuto partitioning. The function `quick_sort` has the following parameter(s):
+Given a range [low, high], it sorts the array _inplace_ in that range using hoare partitioning. The function `quick_sort` has the following parameter(s):
 
 * `low`: an integer specifying the starting position of range
 * `high`: an integer specifying the ending position of range
@@ -33,7 +35,7 @@ where 0 ≤ low ≤ high < n, n represents the size of array.
 
 **Return value:** None.
 
-It sorts the vector _inplace_ in ascending order. The original vector gets modified as it is passed by _reference_. 
+It sorts the vector _inplace_ in ascending order. The original vector gets modified as it is passed by _reference_.
 
 To sort the whole array, call `quick_sort(0, n - 1, array)`.
 

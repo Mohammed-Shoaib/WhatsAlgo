@@ -14,8 +14,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Bubble Sort](Sorting%20Algorithms/Bubble%20Sort/) - O(n²)
 * [Insertion Sort](Sorting%20Algorithms/Insertion%20Sort/) - O(n²)
 * [Merge Sort](Sorting%20Algorithms/Merge%20Sort/) - O(nlogn)
-* [Quick Sort (Lomuto Partitioning)](Sorting%20Algorithms/Quick%20Sort%20(Lomuto%20Partitioning)/) - O(n²)
-* [Quick Sort (Hoare Partitioning)](Sorting%20Algorithms/Quick%20Sort%20(Hoare%20Partitioning)/) - O(n²)
+* [Quick Sort](Sorting%20Algorithms/Quick%20Sort/) - O(n²)
 * [Counting Sort](Sorting%20Algorithms/Counting%20Sort/) - O(n + k)
 
 

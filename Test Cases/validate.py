@@ -63,3 +63,4 @@ if __name__ == '__main__':
 	run_tests('Sorting Algorithms/Bubble Sort')
 	run_tests('Sorting Algorithms/Counting Sort')
 	run_tests('Sorting Algorithms/Insertion Sort')
+	run_tests('Sorting Algorithms/Merge Sort')

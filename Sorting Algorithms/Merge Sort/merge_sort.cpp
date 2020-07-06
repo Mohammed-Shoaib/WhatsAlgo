@@ -1,68 +1,38 @@
 /*
 Algorithm: Merge Sort
-Time Complexity: O(nlogn)
-Space Complexity: O(n)
+Time: O(n log n)
+Space: O(n)
 Author: Mohammed Shoaib, github.com/Mohammed-Shoaib
 */
 
-#include <iostream>
-#include <vector>
+#include "merge_sort.h"
 
-using namespace std;
+void merge(int l, int m, int r, std::vector<int>& a) {
+	int i = l, j = m + 1, k = 0;
+	std::vector<int> temp(r - l + 1);
+	
+	while (i <= m && j <= r) {
+		if (a[i] < a[j])
+			temp[k++] = a[i++];
+		else
+			temp[k++] = a[j++];
+	}
 
-void merge(int left, int mid, int right, vector<int> &a) {
-    int i, j, k;
-    vector<int> temp(right - left + 1);
-    
-    i = left;
-    j = mid + 1;
-    k = 0;
-    
-    while (i <= mid && j <= right) {
-        if (a[i] < a[j]) {
-            temp[k] = a[i];
-            i++;
-        } else {
-            temp[k] = a[j];
-            j++;
-        }
-        k++;
-    }
+	while (i <= m)
+		temp[k++] = a[i++];
 
-    while (i <= mid) {
-        temp[k] = a[i];
-        i++;
-        k++;
-    }
+	while (j <= r)
+		temp[k++] = a[j++];
 
-    while (j <= right) {
-        temp[k] = a[j];
-        j++;
-        k++;
-    }
-
-    for (i = left; i <= right; i++)
-        a[i] = temp[i - left];
+	for (i = l; i <= r; i++)
+		a[i] = temp[i - l];
 }
 
-void merge_sort(int left, int right, vector<int> &a) {
-    if (left >= right)
-        return;
-    int mid = (left + right) / 2;
-    merge_sort(left, mid, a);
-    merge_sort(mid + 1, right, a);
-    merge(left, mid, right, a);
-}
-
-int main() {
-    int n;
-    cin >> n;
-    vector<int> a(n);
-    for (int i = 0; i < n; i++)
-        cin >> a[i];
-    merge_sort(0, n - 1, a);
-    for (int i = 0; i < n; i++)
-        cout << a[i] << " ";
-    cout << endl;
-    return 0;
+void merge_sort(int l, int r, std::vector<int>& a) {
+	if (l >= r)
+		return;
+	int m = (l + r) / 2;
+	merge_sort(l, m, a);
+	merge_sort(m + 1, r, a);
+	merge(l, m, r, a);
 }

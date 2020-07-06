@@ -55,3 +55,4 @@ def run_tests(path: str):
 if __name__ == '__main__':
 	run_tests('Sorting Algorithms/Selection Sort')
 	run_tests('Sorting Algorithms/Bubble Sort')
+	run_tests('Sorting Algorithms/Counting Sort')

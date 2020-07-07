@@ -59,6 +59,10 @@ def run_tests(path: str):
 
 
 if __name__ == '__main__':
+	# Search Algorithms
+	run_tests('Search Algorithms/Binary Search')
+	run_tests('Search Algorithms/Linear Search')
+
 	# Sorting Algorithms
 	run_tests('Sorting Algorithms/Selection Sort')
 	run_tests('Sorting Algorithms/Bubble Sort')

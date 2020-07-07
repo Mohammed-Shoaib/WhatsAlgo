@@ -21,18 +21,14 @@ Worst Case: O(1)
 
 ### Function Description
 
-Given a range [low, high] and a key, it checks if the key is present in that range of the array. The function `binary_search` has the following parameter(s):
+Given a key, it checks if the key is present in the array. The function `binary_search` has the following parameter(s):
 
-* `low`: an integer specifying the starting position of range
-* `high`: an integer specifying the ending position of range
 * `key`: the integer to search
 * `a`: a sorted vector of integers
 
-where 0 ≤ low ≤ high < n, n represents the size of array.
+**Return value:** an integer representing the position of the key in the array if found, else -1.
 
-**Return value:** true if the element was found, else false.
-
-The vector must be sorted for binary search to work. To search a key in the whole array, call `binary_search(0, n - 1, key, a)`.
+The vector must be sorted for binary search to work.
 
 
 ### Input Format
@@ -44,7 +40,7 @@ The next line contains `n` space-separated integers `a[i]` where 0 ≤ `i` < `n`
 
 ### Output Format
 
-`1` or true if the element was found else `0` or false.
+An integer representing the position of the key in the array if found, else -1.
 
 
 ### Sample Input 0
@@ -58,7 +54,7 @@ The next line contains `n` space-separated integers `a[i]` where 0 ≤ `i` < `n`
 ### Sample Output 0
 
 ```
-1
+3
 ```
 
 
@@ -73,5 +69,5 @@ The next line contains `n` space-separated integers `a[i]` where 0 ≤ `i` < `n`
 ### Sample Output 1
 
 ```
-0
+-1
 ```

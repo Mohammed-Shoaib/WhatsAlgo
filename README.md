@@ -1,6 +1,6 @@
 # WhatsAlgo
 
-<p align="center"><img src="assets/logo.png" width=400px></p>
+<p align="center"><img src="assets/logo.png"></p>
 
 Prepping for your coding interview? Want to learn data structures & algorithms but don't know where to start?
 

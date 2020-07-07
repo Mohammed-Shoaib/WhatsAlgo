@@ -23,8 +23,8 @@ Well you have come to the right place. Data structures & algorithms are of key i
 
 * [Linear Search](Search%20Algorithms/Linear%20Search/) - O(n)
 * [Binary Search](Search%20Algorithms/Binary%20Search/) - O(logn)
-* [Peak Finding 1D](Search%20Algorithms/Peak%20Finding%201D/) - O(logn)
-* [Peak Finding 2D](Search%20Algorithms/Peak%20Finding%202D/) - O(mlogn)
+* [Find Peak 1D](Search%20Algorithms/Find%20Peak%201D/) - O(logn)
+* [Find Peak 2D](Search%20Algorithms/Find%20Peak%202D/) - O(mlogn)
 
 
 

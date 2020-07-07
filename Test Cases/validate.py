@@ -71,6 +71,7 @@ if __name__ == '__main__':
 	# Search Algorithms
 	run_tests('Search Algorithms/Binary Search')
 	run_tests('Search Algorithms/Linear Search')
+	run_tests('Search Algorithms/Find Peak 1D')
 
 	# Sorting Algorithms
 	run_tests('Sorting Algorithms/Selection Sort')

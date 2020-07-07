@@ -1,5 +1,5 @@
 /*
-Algorithm: Peak Finding 2D
+Algorithm: Find Peak 2D
 Time Complexity: O(mlogn)
 Space Complexity: O(1)
 Author: Mohammed Shoaib, github.com/Mohammed-Shoaib

@@ -13,6 +13,10 @@ def run_tests(path: str):
 		print(f'[\u2718] Failed compilation of {path}.')
 		return
 	
+	# uses verify to evaluate
+	with open(os.path.join(solution, 'main.cpp')) as f:
+		verify = 'verify' in f.read()
+	
 	# get test files
 	passed = total = 0
 	tests = sorted([os.path.splitext(f)[0] for f in os.listdir(path) if f.endswith('.in')])
@@ -32,13 +36,18 @@ def run_tests(path: str):
 		out = [line.strip() for line in out.splitlines()]
 
 		# checker
-		with open(os.path.join(path, test + '.out')) as f:
-			ans = f.read().strip()
-			ans = [line.strip() for line in ans.splitlines()]
+		if not verify:
+			with open(os.path.join(path, test + '.out')) as f:
+				ans = f.read().strip()
+				ans = [line.strip() for line in ans.splitlines()]
+		else:
+			ans = ['1']
 		
 		# verification
 		if out != ans:
 			print(f'[\u2718] Failed test case {test}.')
+			print(f'{" " * 4}Output: {chr(10).join(out)}')
+			print(f'{" " * 4}Expected: {chr(10).join(ans)}')
 		else:
 			passed += 1
 		total += 1

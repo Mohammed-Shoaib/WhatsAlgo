@@ -13,7 +13,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Selection Sort](Sorting%20Algorithms/Selection%20Sort/) - O(n²)
 * [Bubble Sort](Sorting%20Algorithms/Bubble%20Sort/) - O(n²)
 * [Insertion Sort](Sorting%20Algorithms/Insertion%20Sort/) - O(n²)
-* [Merge Sort](Sorting%20Algorithms/Merge%20Sort/) - O(nlogn)
+* [Merge Sort](Sorting%20Algorithms/Merge%20Sort/) - O(n log n)
 * [Quick Sort](Sorting%20Algorithms/Quick%20Sort/) - O(n²)
 * [Counting Sort](Sorting%20Algorithms/Counting%20Sort/) - O(n + k)
 
@@ -22,9 +22,9 @@ Well you have come to the right place. Data structures & algorithms are of key i
 ## Search Algorithms
 
 * [Linear Search](Search%20Algorithms/Linear%20Search/) - O(n)
-* [Binary Search](Search%20Algorithms/Binary%20Search/) - O(logn)
-* [Find Peak 1D](Search%20Algorithms/Find%20Peak%201D/) - O(logn)
-* [Find Peak 2D](Search%20Algorithms/Find%20Peak%202D/) - O(mlogn)
+* [Binary Search](Search%20Algorithms/Binary%20Search/) - O(log n)
+* [Find Peak 1D](Search%20Algorithms/Find%20Peak%201D/) - O(log n)
+* [Find Peak 2D](Search%20Algorithms/Find%20Peak%202D/) - O(n)
 
 
 
@@ -37,7 +37,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Fenwick Tree](Data%20Structures/Fenwick%20Tree/)
 * [Union-Find](Data%20Structures/Union-Find/)
 * [Prefix Sum](Data%20Structures/Prefix%20Sum/) - O(n)
-* [Prefix Sum 2D](Data%20Structures/Prefix%20Sum%202D/) - O(nm)
+* [Prefix Sum 2D](Data%20Structures/Prefix%20Sum%202D/) - O(n • m)
 
 
 
@@ -62,4 +62,4 @@ Well you have come to the right place. Data structures & algorithms are of key i
 
 ## Miscellaneous
 
-* [Kadane's Algorithm (Divide & Conquer)](Miscellaneous/Kadane's%20Algorithm%20(Divide%20&%20Conquer)/) - O(nlogn)
+* [Kadane's Algorithm (Divide & Conquer)](Miscellaneous/Kadane's%20Algorithm%20(Divide%20&%20Conquer)/) - O(n log n)

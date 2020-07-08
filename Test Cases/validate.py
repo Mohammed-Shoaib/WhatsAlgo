@@ -7,7 +7,7 @@ import subprocess
 def run_tests(path: str):
 	# compile cpp files
 	solution = os.path.join('..', path)
-	files = [f"'{os.path.join(solution, f)}'" for f in os.listdir(solution) if f.endswith('.cpp')]
+	files = [f'"{os.path.join(solution, f)}"' for f in os.listdir(solution) if f.endswith('.cpp')]
 	cmd = f"c++ -std=c++17 {' '.join(files)}"
 	if not os.system(cmd) == 0:
 		print(f'[\u2718] Failed compilation of {path}.')
@@ -68,12 +68,6 @@ def run_tests(path: str):
 
 
 if __name__ == '__main__':
-	# Search Algorithms
-	run_tests('Search Algorithms/Binary Search')
-	run_tests('Search Algorithms/Linear Search')
-	run_tests('Search Algorithms/Find Peak 1D')
-	run_tests('Search Algorithms/Find Peak 2D')
-
 	# Sorting Algorithms
 	run_tests('Sorting Algorithms/Selection Sort')
 	run_tests('Sorting Algorithms/Bubble Sort')
@@ -81,3 +75,12 @@ if __name__ == '__main__':
 	run_tests('Sorting Algorithms/Merge Sort')
 	run_tests('Sorting Algorithms/Quick Sort')
 	run_tests('Sorting Algorithms/Counting Sort')
+
+	# Search Algorithms
+	run_tests('Search Algorithms/Binary Search')
+	run_tests('Search Algorithms/Linear Search')
+	run_tests('Search Algorithms/Find Peak 1D')
+	run_tests('Search Algorithms/Find Peak 2D')
+
+	# Dynamic Programming
+	run_tests('Dynamic Programming/Maximum Subarray')

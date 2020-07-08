@@ -1,6 +1,12 @@
-# Kadane's Algorithm
+# Maximum Subarray
 
 Given an array, kadane's algorithm finds a contiguous subarray with the largest sum.
+
+Kadane's algorithm uses dynamic programming. However, implementing maximum subarray using divide & conquer is more subtle. We can split the array by half at each step and compute the following subproblem falling into 3 cases:
+
+1. The maximum subarray falls into the left half of the array
+2. The maximum subarray falls into the right half of the array
+3. The maximum subarray goes through the middle of the array being the sum of the left half and the right half
 
 
 ### Time Complexity
@@ -21,7 +27,7 @@ Worst Case: O(1)
 
 ### Function Description
 
-The function `kadane` has the following parameter(s):
+The function `maximum_subarray` has the following parameter(s):
 
 * `a`: a vector of integers
 

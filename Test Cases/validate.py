@@ -91,3 +91,4 @@ if __name__ == '__main__':
 
 	# Bit Manipulation
 	run_tests('Bit Manipulation/Lowest Set Bit')
+	run_tests('Bit Manipulation/Highest Set Bit')

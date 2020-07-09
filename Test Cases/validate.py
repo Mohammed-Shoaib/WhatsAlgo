@@ -1,3 +1,7 @@
+"""
+Problem Statement: https://leetcode.com/problems/ugly-number-ii/
+"""
+
 import os
 import sys
 import subprocess
@@ -84,3 +88,6 @@ if __name__ == '__main__':
 
 	# Dynamic Programming
 	run_tests('Dynamic Programming/Maximum Subarray')
+
+	# Bit Manipulation
+	run_tests('Bit Manipulation/Lowest Set Bit')

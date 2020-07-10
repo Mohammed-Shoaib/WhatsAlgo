@@ -58,3 +58,4 @@ Well you have come to the right place. Data structures & algorithms are of key i
 ## Mathematics
 
 * [Primality Test](Mathematics/Primality%20Test/) - O(√n)
+* [Fast Exponentiation](Mathematics/Fast%20Exponentiation/) - O(log n)

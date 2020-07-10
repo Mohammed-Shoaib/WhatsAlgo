@@ -43,7 +43,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 
 ## Dynamic Programming
 
-* [Kadane's Algorithm](Dynamic%20Programming/Kadane's%20Algorithm/) - O(n)
+* [Maximum Subarray](Dynamic%20Programming/Maximum%20Subarray/) - O(n)
 
 
 
@@ -51,15 +51,10 @@ Well you have come to the right place. Data structures & algorithms are of key i
 
 * [Lowest Set Bit](Bit%20Manipulation/Lowest%20Set%20Bit/) - O(1)
 * [Highest Set Bit](Bit%20Manipulation/Highest%20Set%20Bit/) - O(1)
+* [Count Set Bits](Bit%20Manipulation/Count%20Set%20Bits/) - O(1)
 
 
 
 ## Mathematics
 
 * [Primality Test](Mathematics/Primality%20Test/) - O(√n)
-
-
-
-## Miscellaneous
-
-* [Kadane's Algorithm (Divide & Conquer)](Miscellaneous/Kadane's%20Algorithm%20(Divide%20&%20Conquer)/) - O(n log n)

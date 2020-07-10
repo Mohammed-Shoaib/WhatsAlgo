@@ -1,9 +1,11 @@
 /*
 Algorithm: Primality Test
-Time Complexity: O(sqrt(n))
-Space Complexity: O(1)
+Time: O(√n)
+Space: O(1)
 Author: Mohammed Shoaib, github.com/Mohammed-Shoaib
 */
+
+#include "is_prime.h"
 
 bool is_prime(int n) {
 	// base cases

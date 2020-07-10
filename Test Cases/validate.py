@@ -1,7 +1,3 @@
-"""
-Problem Statement: https://leetcode.com/problems/ugly-number-ii/
-"""
-
 import os
 import sys
 import subprocess
@@ -93,3 +89,6 @@ if __name__ == '__main__':
 	run_tests('Bit Manipulation/Lowest Set Bit')
 	run_tests('Bit Manipulation/Highest Set Bit')
 	run_tests('Bit Manipulation/Count Set Bits')
+
+	# Mathematics
+	run_tests('Mathematics/Primality Test')

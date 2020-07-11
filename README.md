@@ -48,6 +48,12 @@ Well you have come to the right place. Data structures & algorithms are of key i
 
 
 
+## Greedy Algorithms
+
+* [Coin Change](Greedy%20Algorithms/Coin%20Change/) - O(c)
+
+
+
 ## Bit Manipulation
 
 * [Lowest Set Bit](Bit%20Manipulation/Lowest%20Set%20Bit/) - O(1)

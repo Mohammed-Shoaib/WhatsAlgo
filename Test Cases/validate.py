@@ -68,6 +68,9 @@ def run_tests(path: str):
 
 
 if __name__ == '__main__':
+	# Complete Search
+	run_tests('Complete Search/Generating Subsets') # ! stripping output removes empty set
+
 	# Sorting Algorithms
 	run_tests('Sorting Algorithms/Selection Sort')
 	run_tests('Sorting Algorithms/Bubble Sort')
@@ -84,6 +87,7 @@ if __name__ == '__main__':
 
 	# Dynamic Programming
 	run_tests('Dynamic Programming/Maximum Subarray')
+	run_tests('Dynamic Programming/Coin Change')
 
 	# Bit Manipulation
 	run_tests('Bit Manipulation/Lowest Set Bit')

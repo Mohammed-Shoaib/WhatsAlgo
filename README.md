@@ -68,3 +68,4 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Fast Exponentiation](Mathematics/Fast%20Exponentiation/) - O(log n)
 * [Fast Modular Exponentiation](Mathematics/Fast%20Modular%20Exponentiation/) - O(log n)
 * [Greatest Common Divisor](Mathematics/Greatest%20Common%20Divisor/) - O(log(a + b))
+* [Least Common Multiple](Mathematics/Least%20Common%20Multiple/) - O(log(a + b))

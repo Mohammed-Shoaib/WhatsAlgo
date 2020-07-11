@@ -68,9 +68,6 @@ def run_tests(path: str):
 
 
 if __name__ == '__main__':
-	# Complete Search
-	run_tests('Complete Search/Generating Subsets') # ! stripping output removes empty set
-
 	# Sorting Algorithms
 	run_tests('Sorting Algorithms/Selection Sort')
 	run_tests('Sorting Algorithms/Bubble Sort')
@@ -101,3 +98,4 @@ if __name__ == '__main__':
 	run_tests('Mathematics/Primality Test')
 	run_tests('Mathematics/Fast Exponentiation')
 	run_tests('Mathematics/Fast Modular Exponentiation')
+	run_tests('Mathematics/Greatest Common Divisor')

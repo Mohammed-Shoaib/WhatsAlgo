@@ -93,6 +93,7 @@ if __name__ == '__main__':
 	run_tests('Bit Manipulation/Lowest Set Bit')
 	run_tests('Bit Manipulation/Highest Set Bit')
 	run_tests('Bit Manipulation/Count Set Bits')
+	run_tests('Bit Manipulation/Reverse Bits')
 
 	# Mathematics
 	run_tests('Mathematics/Primality Test')

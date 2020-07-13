@@ -59,6 +59,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Lowest Set Bit](Bit%20Manipulation/Lowest%20Set%20Bit/) - O(1)
 * [Highest Set Bit](Bit%20Manipulation/Highest%20Set%20Bit/) - O(1)
 * [Count Set Bits](Bit%20Manipulation/Count%20Set%20Bits/) - O(1)
+* [Reverse Bits](Bit%20Manipulation/Reverse%20Bits/) - O(1)
 
 
 

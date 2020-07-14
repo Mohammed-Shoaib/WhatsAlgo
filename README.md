@@ -71,3 +71,4 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Fast Modular Exponentiation](Mathematics/Fast%20Modular%20Exponentiation/) - O(log n)
 * [Greatest Common Divisor](Mathematics/Greatest%20Common%20Divisor/) - O(log(a + b))
 * [Least Common Multiple](Mathematics/Least%20Common%20Multiple/) - O(log(a + b))
+* [nCr mod p](Mathematics/nCr%20mod%20p/) - O(n)

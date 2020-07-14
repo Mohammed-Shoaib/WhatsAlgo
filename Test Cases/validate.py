@@ -1,20 +1,42 @@
 import os
+import re
 import sys
 import subprocess
+from queue import Queue
 
 
 
-def run_tests(path: str):
-	# compile cpp files
-	solution = os.path.join('..', path)
-	files = [f'"{os.path.join(solution, f)}"' for f in os.listdir(solution) if f.endswith('.cpp')]
+def compile(path: str) -> bool:
+	q = Queue()
+	files = []
+	q.put(os.path.join(path, 'main.cpp'))
+
+	# get all imported files
+	while not q.empty():
+		file_path = q.get()
+		files.append(f'"{os.path.splitext(file_path)[0]}.cpp"')
+		
+		with open(file_path) as f:
+			content = f.read()
+		
+		for f in re.findall(r'#include "(.*\.h)"', content):
+			q.put(os.path.join(path, f))
+	
+	# compile files together
 	cmd = f"c++ -std=c++17 {' '.join(files)}"
-	if not os.system(cmd) == 0:
+	
+	return os.system(cmd) == 0
+
+
+
+def run_tests(path: str) -> None:
+	# compile cpp files
+	if not compile(os.path.join('..', path)):
 		print(f'[\u2718] Failed compilation of {path}.')
 		return
 	
 	# uses verify to evaluate
-	with open(os.path.join(solution, 'main.cpp')) as f:
+	with open(os.path.join('..', path, 'main.cpp')) as f:
 		verify = 'verify' in f.read()
 	
 	# get test files
@@ -85,6 +107,7 @@ if __name__ == '__main__':
 	# Dynamic Programming
 	run_tests('Dynamic Programming/Maximum Subarray')
 	run_tests('Dynamic Programming/Coin Change')
+	run_tests('Dynamic Programming/nCr mod m')
 
 	# Greedy Algorithms
 	run_tests('Greedy Algorithms/Coin Change')

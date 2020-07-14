@@ -45,6 +45,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 
 * [Maximum Subarray](Dynamic%20Programming/Maximum%20Subarray/) - O(n)
 * [Coin Change](Dynamic%20Programming/Coin%20Change/) - O(n • c)
+* [nCr mod m](Dynamic%20Programming/nCr%20mod%20m/) - O(n • r)
 
 
 

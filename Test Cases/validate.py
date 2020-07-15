@@ -108,6 +108,7 @@ if __name__ == '__main__':
 	run_tests('Dynamic Programming/Maximum Subarray')
 	run_tests('Dynamic Programming/Coin Change')
 	run_tests('Dynamic Programming/nCr mod m')
+	run_tests('Dynamic Programming/Edit Distance')
 
 	# Greedy Algorithms
 	run_tests('Greedy Algorithms/Coin Change')

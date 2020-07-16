@@ -38,7 +38,7 @@ Worst Case: O(1)
 
 Computes x<sup>n</sup>. The function `power` has the following parameters:
 
-* `x`: an integer
+* `x`: a double
 * `n`: an integer representing the power to be computed
 
 **Return value:** a double which is the result of x<sup>n</sup>.
@@ -46,7 +46,7 @@ Computes x<sup>n</sup>. The function `power` has the following parameters:
 
 ### Input Format
 
-A single line containing two space-separated integers `x` and `n`.
+A single line containing two space-separated values, the first being a double value representing `x` and the second being an integer value representing `n`.
 
 
 ### Output Format

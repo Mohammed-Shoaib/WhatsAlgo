@@ -25,8 +25,7 @@ double power_recursive(double x, int n) {
 		return 1;
 	else if (x == 0)
 		return 0;
-	double y = power_recursive(x, n / 2);
-	y *= y;
+	double y = power_recursive(x * x, n / 2);
 	if (n & 1)
 		y = (n < 0) ? y / x : y * x;
 	return y;

@@ -104,6 +104,9 @@ if __name__ == '__main__':
 	run_tests('Search Algorithms/Find Peak 1D')
 	run_tests('Search Algorithms/Find Peak 2D')
 
+	# Tree Algorithms
+	run_tests('Tree Algorithms/Kruskal\'s Minimum Spanning Tree')
+
 	# Dynamic Programming
 	run_tests('Dynamic Programming/Maximum Subarray')
 	run_tests('Dynamic Programming/Coin Change')

@@ -106,6 +106,7 @@ if __name__ == '__main__':
 
 	# Tree Algorithms
 	run_tests('Tree Algorithms/Kruskal\'s Minimum Spanning Tree')
+	run_tests('Tree Algorithms/Prim\'s Minimum Spanning Tree')
 
 	# Dynamic Programming
 	run_tests('Dynamic Programming/Maximum Subarray')

@@ -41,6 +41,13 @@ Well you have come to the right place. Data structures & algorithms are of key i
 
 
 
+## Tree Algorithms
+
+* [Kruskal's Minimum Spanning Tree](Tree%20Algorithms/Kruskal's%20Minimum%20Spanning%20Tree/) - O(E • log E)
+* [Prim's Minimum Spanning Tree](Tree%20Algorithms/Prim's%20Minimum%20Spanning%20Tree/) - O(E • log E)
+
+
+
 ## Dynamic Programming
 
 * [Maximum Subarray](Dynamic%20Programming/Maximum%20Subarray/) - O(n)

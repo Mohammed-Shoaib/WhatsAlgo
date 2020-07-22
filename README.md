@@ -54,6 +54,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Coin Change](Dynamic%20Programming/Coin%20Change/) - O(n • c)
 * [Edit Distance](Dynamic%20Programming/Edit%20Distance/) - O(m • n)
 * [Longest Common Subsequence](Dynamic%20Programming/Longest%20Common%20Subsequence/) - O(m • n)
+* [Longest Increasing Subsequence](Dynamic%20Programming/Longest%20Increasing%20Subsequence/) - O(n • log n)
 * [nCr mod m](Dynamic%20Programming/nCr%20mod%20m/) - O(n • r)
 
 

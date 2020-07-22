@@ -114,6 +114,7 @@ if __name__ == '__main__':
 	run_tests('Dynamic Programming/nCr mod m')
 	run_tests('Dynamic Programming/Edit Distance')
 	run_tests('Dynamic Programming/Longest Common Subsequence')
+	run_tests('Dynamic Programming/Longest Increasing Subsequence')
 
 	# Greedy Algorithms
 	run_tests('Greedy Algorithms/Coin Change')

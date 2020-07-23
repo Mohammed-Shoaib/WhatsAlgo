@@ -131,4 +131,5 @@ if __name__ == '__main__':
 	run_tests('Mathematics/Fast Modular Exponentiation')
 	run_tests('Mathematics/Greatest Common Divisor')
 	run_tests('Mathematics/Least Common Multiple')
+	run_tests('Mathematics/Extended Euclidean Algorithm')
 	run_tests('Mathematics/nCr mod p')

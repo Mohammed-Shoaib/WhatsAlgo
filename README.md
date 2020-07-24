@@ -83,3 +83,4 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Least Common Multiple](Mathematics/Least%20Common%20Multiple/) - O(log(a + b))
 * [nCr mod p](Mathematics/nCr%20mod%20p/) - O(n)
 * [Extended Euclidean Algorithm](Mathematics/Extended%20Euclidean%20Algorithm/) - O(log(a + b))
+* [Modular Multiplicative Inverse](Mathematics/Modular%20Multiplicative%20Inverse/) - O(log m)

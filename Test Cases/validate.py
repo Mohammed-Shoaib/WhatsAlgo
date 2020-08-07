@@ -127,6 +127,7 @@ if __name__ == '__main__':
 
 	# Mathematics
 	run_tests('Mathematics/Primality Test')
+	run_tests('Mathematics/Prime Factorization')
 	run_tests('Mathematics/Fast Exponentiation')
 	run_tests('Mathematics/Fast Modular Exponentiation')
 	run_tests('Mathematics/Greatest Common Divisor')

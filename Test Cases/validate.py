@@ -135,3 +135,6 @@ if __name__ == '__main__':
 	run_tests('Mathematics/Extended Euclidean Algorithm')
 	run_tests('Mathematics/Modular Multiplicative Inverse')
 	run_tests('Mathematics/nCr mod p')
+
+	# Data Structures
+	run_tests('Data Structures/Knuth–Morris–Pratt Algorithm')

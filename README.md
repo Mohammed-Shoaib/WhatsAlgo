@@ -38,6 +38,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Union-Find](Data%20Structures/Union-Find/)
 * [Prefix Sum](Data%20Structures/Prefix%20Sum/) - O(n)
 * [Prefix Sum 2D](Data%20Structures/Prefix%20Sum%202D/) - O(n • m)
+* [Knuth–Morris–Pratt Algorithm](Data%20Structures/Knuth–Morris–Pratt%20Algorithm/) - O(m + n)
 
 
 

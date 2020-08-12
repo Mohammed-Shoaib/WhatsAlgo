@@ -28,6 +28,12 @@ Well you have come to the right place. Data structures & algorithms are of key i
 
 
 
+## Complete Search
+
+* [Generating Subsets](Complete%20Search/Generating%20Subsets/) - O(n • 2ⁿ)
+
+
+
 ## Data Structures
 
 * [Least Recently Used Cache](Data%20Structures/LRU%20Cache/)

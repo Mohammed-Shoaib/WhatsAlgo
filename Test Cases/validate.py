@@ -119,6 +119,9 @@ if __name__ == '__main__':
 	# Greedy Algorithms
 	run_tests('Greedy Algorithms/Coin Change')
 
+	# Complete Search
+	run_tests('Complete Search/Generating Subsets') # ! stripping output removes empty set
+
 	# Bit Manipulation
 	run_tests('Bit Manipulation/Lowest Set Bit')
 	run_tests('Bit Manipulation/Highest Set Bit')

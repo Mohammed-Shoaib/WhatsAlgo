@@ -141,3 +141,6 @@ if __name__ == '__main__':
 
 	# Data Structures
 	run_tests('Data Structures/Knuth–Morris–Pratt Algorithm')
+	
+	# Miscellaneous
+	run_tests('Miscellaneous/Boyer–Moore Majority Vote')

@@ -92,3 +92,6 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [nCr mod p](Mathematics/nCr%20mod%20p/) - O(n)
 * [Extended Euclidean Algorithm](Mathematics/Extended%20Euclidean%20Algorithm/) - O(log(a + b))
 * [Modular Multiplicative Inverse](Mathematics/Modular%20Multiplicative%20Inverse/) - O(log m)
+
+# Miscellaneous
+* [Boyer–Moore Majority Vote](Miscellaneous/Boyer–Moore%20Majority%20Vote/) - O(n • k)

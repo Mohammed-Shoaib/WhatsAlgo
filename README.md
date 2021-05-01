@@ -31,6 +31,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 ## Complete Search
 
 * [Generating Subsets](Complete%20Search/Generating%20Subsets/) - O(n • 2ⁿ)
+* [Generating Permutations (Lexicographic)](Complete%20Search/Generating%20Permutations%20(Lexicographic)/) - O(n * n!)
 
 
 
@@ -93,5 +94,7 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Extended Euclidean Algorithm](Mathematics/Extended%20Euclidean%20Algorithm/) - O(log(a + b))
 * [Modular Multiplicative Inverse](Mathematics/Modular%20Multiplicative%20Inverse/) - O(log m)
 
-# Miscellaneous
+
+
+## Miscellaneous
 * [Boyer–Moore Majority Vote](Miscellaneous/Boyer–Moore%20Majority%20Vote/) - O(n • k)

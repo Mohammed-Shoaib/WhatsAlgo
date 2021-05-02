@@ -7,7 +7,6 @@ Prepping for your coding interview? Want to learn data structures & algorithms b
 Well you have come to the right place. Data structures & algorithms are of key importance for anyone dealing with programming. Be a software engineer, a computer science student, or a fun enthusiast, having a firm grasp on various topics is crucial. This repository aims to provide implementations of many different data structures & algorithms from basic to some advanced topics. Learn and have a firm grasp on data structures & algorithms to ace your coding interviews and land that dream job!
 
 
-
 ## Sorting Algorithms
 
 * [Selection Sort](Sorting%20Algorithms/Selection%20Sort/) - O(n²)
@@ -18,7 +17,6 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Counting Sort](Sorting%20Algorithms/Counting%20Sort/) - O(n + k)
 
 
-
 ## Search Algorithms
 
 * [Linear Search](Search%20Algorithms/Linear%20Search/) - O(n)
@@ -27,12 +25,11 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Find Peak 2D](Search%20Algorithms/Find%20Peak%202D/) - O(n)
 
 
-
 ## Complete Search
 
 * [Generating Subsets](Complete%20Search/Generating%20Subsets/) - O(n • 2ⁿ)
+* [Generating Permutations (Backtracking)](Complete%20Search/Generating%20Permutations%20(Backtracking)/) - O(n * n!)
 * [Generating Permutations (Lexicographic)](Complete%20Search/Generating%20Permutations%20(Lexicographic)/) - O(n * n!)
-
 
 
 ## Data Structures
@@ -48,12 +45,10 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Knuth–Morris–Pratt Algorithm](Data%20Structures/Knuth–Morris–Pratt%20Algorithm/) - O(m + n)
 
 
-
 ## Tree Algorithms
 
 * [Kruskal's Minimum Spanning Tree](Tree%20Algorithms/Kruskal's%20Minimum%20Spanning%20Tree/) - O(E • log E)
 * [Prim's Minimum Spanning Tree](Tree%20Algorithms/Prim's%20Minimum%20Spanning%20Tree/) - O(E • log E)
-
 
 
 ## Dynamic Programming
@@ -66,11 +61,9 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [nCr mod m](Dynamic%20Programming/nCr%20mod%20m/) - O(n • r)
 
 
-
 ## Greedy Algorithms
 
 * [Coin Change](Greedy%20Algorithms/Coin%20Change/) - O(c)
-
 
 
 ## Bit Manipulation
@@ -79,7 +72,6 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [Highest Set Bit](Bit%20Manipulation/Highest%20Set%20Bit/) - O(1)
 * [Count Set Bits](Bit%20Manipulation/Count%20Set%20Bits/) - O(1)
 * [Reverse Bits](Bit%20Manipulation/Reverse%20Bits/) - O(1)
-
 
 
 ## Mathematics
@@ -93,7 +85,6 @@ Well you have come to the right place. Data structures & algorithms are of key i
 * [nCr mod p](Mathematics/nCr%20mod%20p/) - O(n)
 * [Extended Euclidean Algorithm](Mathematics/Extended%20Euclidean%20Algorithm/) - O(log(a + b))
 * [Modular Multiplicative Inverse](Mathematics/Modular%20Multiplicative%20Inverse/) - O(log m)
-
 
 
 ## Miscellaneous
